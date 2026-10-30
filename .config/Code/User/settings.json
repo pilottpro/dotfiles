@@ -1,0 +1,9 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "chat.disableAIFeatures": true,
+    "editor.minimap.enabled": false,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.initialHint": false,
+}
