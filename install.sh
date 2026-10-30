@@ -8,6 +8,7 @@ CURRENT_DIR=$(pwd)
 FILES=$(find "$CURRENT_DIR" \
             -type f \
             -not -path "${CURRENT_DIR}/.git/*" \
+            -not -path "${CURRENT_DIR}/.gitignore" \
             -not -path "${CURRENT_DIR}/README.md" \
             -not -path "${CURRENT_DIR}/install.sh")
 
