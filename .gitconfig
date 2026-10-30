@@ -1,0 +1,7 @@
+[user]
+	name = Pilott
+	email = contact@pilott.pro
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
