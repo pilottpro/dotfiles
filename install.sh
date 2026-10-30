@@ -26,6 +26,7 @@ for FILE in $FILES; do
             mkdir -p "$PARENT_DIR"
         fi
 
+        # Create the symbolic link
         echo "SYMLINK: $TARGET_PATH -> $FILE"
         ln -s -f "$FILE" "$TARGET_PATH"
     fi
